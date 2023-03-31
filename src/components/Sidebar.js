@@ -16,7 +16,7 @@ const Sidebar = () => {
           height: "44",
         }}
       >
-        <img src="/Images/logo.png" alt="Logo" style={{position:'fixed',zIndex:"2"}} />
+        <img src="/Images/logo.png" alt="Logo" style={{position:'absolute',zIndex:"2"}} />
       </div>
       <div className="sidebar">
         <div
