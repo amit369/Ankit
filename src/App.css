@@ -1,0 +1,220 @@
+.main_container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #f9f9f9;
+}
+.sidebar {
+  position: absolute;
+  width: 269px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+  background: #3344ff;
+  border-radius: 0px 20px 20px 0px;
+}
+.header {
+  position: absolute;
+  width: 291px;
+  height: 42px;
+  left: 315px;
+  top: 28px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 42px;
+  color: #808080;
+}
+.sub_heading {
+  position: absolute;
+  width: 572px;
+  height: 30px;
+  left: 315px;
+  top: 90px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2951d5;
+}
+.card1 {
+  position: absolute;
+  width: 207px;
+  height: 121px;
+  left: 315px;
+  top: 142px;
+  text-align: end;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.025);
+  border-radius: 10px;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card2 {
+  position: absolute;
+  width: 207px;
+  height: 121px;
+  left: 531px;
+  top: 142px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.025);
+  border-radius: 10px;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card3 {
+  position: absolute;
+  width: 207px;
+  height: 121px;
+  left: 747px;
+  top: 142px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.025);
+  border-radius: 10px;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card4 {
+  position: absolute;
+  width: 207px;
+  height: 121px;
+  left: 963px;
+  top: 142px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.025);
+  border-radius: 10px;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card5 {
+  position: absolute;
+  width: 207px;
+  height: 121px;
+  left: 1179px;
+  top: 142px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.025);
+  border-radius: 10px;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  position: absolute;
+  width: 424px;
+  height: 42px;
+  left: 322px;
+  top: 298px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 42px;
+  color: #2e2e2e;
+}
+.down {
+  position: absolute;
+  width: 328px;
+  height: 24px;
+  left: 321px;
+  top: 360px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3344ff;
+}
+.selected {
+  background-color: blue;
+}
+.tracking_left {
+  position: absolute;
+  width: 424px;
+  height: 42px;
+  left: 322px;
+  top: 298px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 42px;
+
+  color: #2e2e2e;
+}
+.tracking_down {
+  position: absolute;
+  width: 328px;
+  height: 24px;
+  left: 321px;
+  top: 360px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #3344ff;
+}
+.gigtable {
+  position: absolute;
+  width: 1071px;
+  height: 381px;
+  left: 315px;
+  top: 473px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.025);
+}
+button {
+  background: #ffffff;
+  border: 1px solid #3344ff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.025);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3344ff;
+}
+button:hover,
+button:focus {
+  background-color: #007bff;
+  color: #fff;
+  outline: none;
+}
+select {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.025);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #808080;
+  padding-left: 15px;
+}
+#myCheckbox {
+  width: 30px;
+  height: 30px;
+  left: 316px;
+  top: 414px;
+  box-sizing: border-box;
+  position: absolute;
+  background: #ffffff;
+  border: 0.5px solid #c4c4c4;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.025);
+  border-radius: 4px;
+}
